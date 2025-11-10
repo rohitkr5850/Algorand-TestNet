@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --card: #121832;
+  --muted: #93a0b8;
+  --ring: #5b7cff;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 800px at 30% -10%, #16214a 0%, var(--bg) 35%) no-repeat fixed;
+  color: #e7ecff;
+}
+
+input, textarea {
+  color: #0b1020;
+}
